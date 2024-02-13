@@ -19,7 +19,7 @@ namespace DecisionAndInterestApplication.Handlers
 
         public async Task<DecisionResponse> Handle(CreditAmountQuery request, CancellationToken cancellationToken)
         {
-            _decisionValidation.Validate(request.CreditAmount);
+            _decisionValidation.Validate(request.CreditAmount, request.CurrentPreExistingAmount);
 
             var result = await _decisionService.GetDecisionBasedOnAppliedAmountAsync(request.CreditAmount.Value);
 

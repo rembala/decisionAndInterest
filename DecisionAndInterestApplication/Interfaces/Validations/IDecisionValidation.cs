@@ -8,6 +8,6 @@ namespace DecisionAndInterestApplication.Interfaces.Validations
 {
     public interface IDecisionValidation
     {
-        void Validate(int? amount);
+        void Validate(int? amount, int? preExistingCreditAmount);
     }
 }

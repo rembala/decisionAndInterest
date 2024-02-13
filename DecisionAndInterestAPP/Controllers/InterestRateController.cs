@@ -16,7 +16,7 @@ namespace DecisionAndInterestPresentation.Controllers
         }
 
         [HttpGet]
-        public async Task<int> GetInterestRateBasedOnTotalFutueDebt(int repainmentInMonths)
+        public async Task<int> GetInterestRateBasedOnRepainmentInMonths(int repainmentInMonths)
         {
             var result = await _sender.Send(new InterestRateQuery { totalFutureDebt = repainmentInMonths });
 

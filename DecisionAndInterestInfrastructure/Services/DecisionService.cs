@@ -20,12 +20,12 @@ namespace DecisionAndInterestInfrastructure.Services
                 .GetDecisions()
                 .ToDictionary(key => key.Title, decision => decision.Title);
 
-            var decision = GetDecision(amount, decisions);
+            var decision = GetDecisionBasedOnAmount(amount, decisions);
 
             return await Task.FromResult(new Decision { Title = decision });
         }
 
-        private string GetDecision(int amount, Dictionary<string, string> decisions)
+        private string GetDecisionBasedOnAmount(int amount, Dictionary<string, string> decisions)
         {
             switch (amount)
             {

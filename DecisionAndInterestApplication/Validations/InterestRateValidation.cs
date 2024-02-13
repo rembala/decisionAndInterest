@@ -6,7 +6,7 @@ namespace DecisionAndInterestApplication.Validations
     {
         public void Validate(int? futureDebt)
         {
-            if (!futureDebt.HasValue)
+            if (!futureDebt.HasValue || futureDebt.Value == 0)
             {
                 throw new ArgumentException("Total future debt cannot be null!");
             }
