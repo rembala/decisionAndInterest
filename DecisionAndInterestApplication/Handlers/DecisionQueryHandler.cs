@@ -9,19 +9,19 @@ namespace DecisionAndInterestApplication.Handlers
     public class DecisionQueryHandler : IRequestHandler<CreditAmountQuery, DecisionResponse>
     {
         private readonly IDecisionValidation _decisionValidation;
-        private readonly IDecisionHelper _decisionHelper;
+        private readonly IDecisionService _decisionService;
 
-        public DecisionQueryHandler(IDecisionValidation decisionValidation, IDecisionHelper decisionHelper)
+        public DecisionQueryHandler(IDecisionValidation decisionValidation, IDecisionService decisionService)
         {
             _decisionValidation = decisionValidation;
-            _decisionHelper = decisionHelper;
+            _decisionService = decisionService;
         }
 
         public async Task<DecisionResponse> Handle(CreditAmountQuery request, CancellationToken cancellationToken)
         {
-            _decisionValidation.Validate(request.Amount);
+            _decisionValidation.Validate(request.CreditAmount);
 
-            var result = await _decisionHelper.GetDecisionBasedOnAppliedAmountAsync(request.Amount.Value);
+            var result = await _decisionService.GetDecisionBasedOnAppliedAmountAsync(request.CreditAmount.Value);
 
             var response = new DecisionResponse {  Decision = result.Title };
 

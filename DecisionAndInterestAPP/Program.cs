@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Program).Assembly));
-builder.Services.RegisterRepositories();
+builder.Services.RegisterDependencies();
 builder.Services.RegisterRequestHandlers();
 
 var app = builder.Build();

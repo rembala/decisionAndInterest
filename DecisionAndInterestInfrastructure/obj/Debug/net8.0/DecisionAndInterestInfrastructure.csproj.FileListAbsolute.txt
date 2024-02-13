@@ -15,3 +15,4 @@ C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestInfrastruc
 C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestInfrastructure\bin\Debug\net8.0\DecisionAndInterestDomain.pdb
 C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestInfrastructure\obj\Debug\net8.0\DecisionAndInterestInfrastructure.csproj.AssemblyReference.cache
 C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestInfrastructure\obj\Debug\net8.0\DecisionAndInterestInfrastructure.csproj.CopyComplete
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestInfrastructure\obj\Debug\net8.0\DecisionAndInterestInfrastructure.sourcelink.json

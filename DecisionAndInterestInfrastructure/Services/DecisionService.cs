@@ -3,20 +3,20 @@ using DecisionAndInterestApplication.Interfaces.Helpers;
 using DecisionAndInterestApplication.Interfaces.Repositories;
 using DecisionAndInterestDomain.Entities;
 
-namespace DecisionAndInterestApplication.Helpers
+namespace DecisionAndInterestInfrastructure.Services
 {
-    public class DecisionHelper : IDecisionHelper
+    public class DecisionService : IDecisionService
     {
         private readonly IDecisionRepository _decisionRepository;
 
-        public DecisionHelper(IDecisionRepository decisionRepository)
+        public DecisionService(IDecisionRepository decisionRepository)
         {
             _decisionRepository = decisionRepository;
         }
 
         public async Task<Decision> GetDecisionBasedOnAppliedAmountAsync(int amount)
         {
-            var decisions =  _decisionRepository
+            var decisions = _decisionRepository
                 .GetDecisions()
                 .ToDictionary(key => key.Title, decision => decision.Title);
 
@@ -25,7 +25,8 @@ namespace DecisionAndInterestApplication.Helpers
             return await Task.FromResult(new Decision { Title = decision });
         }
 
-        private string GetDecision(int amount, Dictionary<string, string> decisions) {
+        private string GetDecision(int amount, Dictionary<string, string> decisions)
+        {
             switch (amount)
             {
                 case > 69000:

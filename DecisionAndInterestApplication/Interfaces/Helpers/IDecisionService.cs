@@ -2,7 +2,7 @@
 
 namespace DecisionAndInterestApplication.Interfaces.Helpers
 {
-    public interface IDecisionHelper
+    public interface IDecisionService
     {
         Task<Decision> GetDecisionBasedOnAppliedAmountAsync(int amount);
     }

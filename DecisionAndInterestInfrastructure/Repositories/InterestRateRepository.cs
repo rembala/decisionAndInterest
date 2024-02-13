@@ -15,10 +15,10 @@ namespace DecisionAndInterestInfrastructure.Repositories
         public List<InterestRate> GetInterestRates()
         {
             var interestRates = new List<InterestRate> {
-                new InterestRate { Id = 1, Amount = 3 },
-                new InterestRate { Id = 2, Amount = 4 },
-                new InterestRate { Id = 3, Amount = 5 },
-                new InterestRate { Id = 4, Amount = 6 }
+                new InterestRate { Id = 1, Rate = 3 },
+                new InterestRate { Id = 2, Rate = 4 },
+                new InterestRate { Id = 3, Rate = 5 },
+                new InterestRate { Id = 4, Rate = 6 }
             };
 
             return interestRates;

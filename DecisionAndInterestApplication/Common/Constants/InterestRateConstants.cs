@@ -9,6 +9,6 @@ namespace DecisionAndInterestApplication.Common.Constants
 
         public const int Five = 5;
 
-        public const int Six = 3;
+        public const int Six = 6;
     }
 }

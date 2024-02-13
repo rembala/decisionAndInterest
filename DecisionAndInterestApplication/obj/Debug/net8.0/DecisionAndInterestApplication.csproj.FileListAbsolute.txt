@@ -13,3 +13,4 @@ C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestApplicatio
 C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestApplication\bin\Debug\net8.0\DecisionAndInterestDomain.dll
 C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestApplication\bin\Debug\net8.0\DecisionAndInterestDomain.pdb
 C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestApplication\obj\Debug\net8.0\DecisionAndInterestApplication.csproj.CopyComplete
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestApplication\obj\Debug\net8.0\DecisionAndInterestApplication.sourcelink.json

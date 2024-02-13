@@ -9,3 +9,4 @@ C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestDomain\obj
 C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestDomain\obj\Debug\net8.0\refint\DecisionAndInterestDomain.dll
 C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestDomain\obj\Debug\net8.0\DecisionAndInterestDomain.pdb
 C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestDomain\obj\Debug\net8.0\ref\DecisionAndInterestDomain.dll
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestDomain\obj\Debug\net8.0\DecisionAndInterestDomain.sourcelink.json

@@ -1,5 +1,4 @@
-﻿using DecisionAndInterestApplication.Helpers;
-using DecisionAndInterestApplication.Interfaces.Helpers;
+﻿using DecisionAndInterestApplication.Interfaces.Helpers;
 using DecisionAndInterestApplication.Interfaces.Validations;
 using DecisionAndInterestApplication.Queries;
 using DecisionAndInterestApplication.Responses;
@@ -10,21 +9,21 @@ namespace DecisionAndInterestApplication.Handlers
     public class InterestRateQueryHandler : IRequestHandler<InterestRateQuery, InterestRateResponse>
     {
         private readonly IInterestRateValidation _interestRateValidation;
-        private readonly IInterestRateHelper _interestRateHelper;
+        private readonly IInterestRateService _interestRateService;
 
-        public InterestRateQueryHandler(IInterestRateValidation interestRateValidation, IInterestRateHelper interestRateHelper)
+        public InterestRateQueryHandler(IInterestRateValidation interestRateValidation, IInterestRateService interestRateService)
         {
             _interestRateValidation = interestRateValidation;
-            _interestRateHelper = interestRateHelper;
+            _interestRateService = interestRateService;
         }
 
         public async Task<InterestRateResponse> Handle(InterestRateQuery request, CancellationToken cancellationToken)
         {
-            _interestRateValidation.Validate(request.Amount);
+            _interestRateValidation.Validate(request.totalFutureDebt);
 
-            var result = await _interestRateHelper.GetInterestRateBasedOnFutureDebt(request.Amount.Value);
+            var result = await _interestRateService.GetInterestRateBasedOnFutureDebtAsync(request.totalFutureDebt.Value);
 
-            var response = new InterestRateResponse { InterestRate = result.Amount };
+            var response = new InterestRateResponse { InterestRate = result.Rate };
 
             return response;
         }

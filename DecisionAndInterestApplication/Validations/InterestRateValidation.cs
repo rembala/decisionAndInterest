@@ -4,9 +4,12 @@ namespace DecisionAndInterestApplication.Validations
 {
     public class InterestRateValidation : IInterestRateValidation
     {
-        public void Validate(int? amount)
+        public void Validate(int? futureDebt)
         {
-            throw new ArgumentException("Amount cannot be null!");
+            if (!futureDebt.HasValue)
+            {
+                throw new ArgumentException("Total future debt cannot be null!");
+            }
         }
     }
 }

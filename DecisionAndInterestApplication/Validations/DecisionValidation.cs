@@ -6,7 +6,10 @@ namespace DecisionAndInterestApplication.Validations
     {
         public void Validate(int? amount)
         {
-            throw new ArgumentException("Amount cannot be null!");
+            if (!amount.HasValue)
+            {
+                throw new ArgumentException("Amount cannot be null!");
+            }
         }
     }
 }

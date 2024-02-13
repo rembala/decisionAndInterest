@@ -5,6 +5,8 @@ namespace DecisionAndInterestApplication.Queries
 {
     public class CreditAmountQuery : IRequest<DecisionResponse>
     {
-        public int? Amount { get; set; }
+        public int? CreditAmount { get; set; }
+
+        public int? CurrentPreExistingAmount { get; set; }
     }
 }

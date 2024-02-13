@@ -38,3 +38,4 @@ C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestAPP\bin\De
 C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestAPP\bin\Debug\net8.0\DecisionAndInterestInfrastructure.pdb
 C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestAPP\bin\Debug\net8.0\DecisionAndInterestDomain.dll
 C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestAPP\bin\Debug\net8.0\DecisionAndInterestDomain.pdb
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestAPP\obj\Debug\net8.0\DecisionAndInterestPresentation.sourcelink.json
