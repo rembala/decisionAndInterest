@@ -1,0 +1,15 @@
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestApplication\bin\Debug\net8.0\DecisionAndInterestApplication.deps.json
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestApplication\bin\Debug\net8.0\DecisionAndInterestApplication.dll
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestApplication\bin\Debug\net8.0\DecisionAndInterestApplication.pdb
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestApplication\obj\Debug\net8.0\DecisionAndInterestApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestApplication\obj\Debug\net8.0\DecisionAndInterestApplication.AssemblyInfoInputs.cache
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestApplication\obj\Debug\net8.0\DecisionAndInterestApplication.AssemblyInfo.cs
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestApplication\obj\Debug\net8.0\DecisionAndInterestApplication.csproj.CoreCompileInputs.cache
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestApplication\obj\Debug\net8.0\DecisionAndInterestApplication.dll
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestApplication\obj\Debug\net8.0\refint\DecisionAndInterestApplication.dll
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestApplication\obj\Debug\net8.0\DecisionAndInterestApplication.pdb
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestApplication\obj\Debug\net8.0\ref\DecisionAndInterestApplication.dll
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestApplication\obj\Debug\net8.0\DecisionAndInterestApplication.csproj.AssemblyReference.cache
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestApplication\bin\Debug\net8.0\DecisionAndInterestDomain.dll
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestApplication\bin\Debug\net8.0\DecisionAndInterestDomain.pdb
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestApplication\obj\Debug\net8.0\DecisionAndInterestApplication.csproj.CopyComplete

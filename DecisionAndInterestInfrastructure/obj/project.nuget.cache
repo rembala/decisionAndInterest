@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "GM41TD9/1jVnrnNROwFdFVRT611xlBC4IleJ68NQEUjJCpwYg22bXvaitrnmNGVxwRAIij+pox/bv3EEBPHNVA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\artur\\source\\repos\\DecisionAndInterestAPP\\DecisionAndInterestInfrastructure\\DecisionAndInterestInfrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\artur\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\artur\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\artur\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

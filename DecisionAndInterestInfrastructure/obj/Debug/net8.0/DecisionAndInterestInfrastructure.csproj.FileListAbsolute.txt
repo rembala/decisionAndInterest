@@ -1,0 +1,17 @@
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestInfrastructure\bin\Debug\net8.0\DecisionAndInterestInfrastructure.deps.json
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestInfrastructure\bin\Debug\net8.0\DecisionAndInterestInfrastructure.dll
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestInfrastructure\bin\Debug\net8.0\DecisionAndInterestInfrastructure.pdb
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestInfrastructure\obj\Debug\net8.0\DecisionAndInterestInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestInfrastructure\obj\Debug\net8.0\DecisionAndInterestInfrastructure.AssemblyInfoInputs.cache
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestInfrastructure\obj\Debug\net8.0\DecisionAndInterestInfrastructure.AssemblyInfo.cs
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestInfrastructure\obj\Debug\net8.0\DecisionAndInterestInfrastructure.csproj.CoreCompileInputs.cache
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestInfrastructure\obj\Debug\net8.0\DecisionAndInterestInfrastructure.dll
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestInfrastructure\obj\Debug\net8.0\refint\DecisionAndInterestInfrastructure.dll
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestInfrastructure\obj\Debug\net8.0\DecisionAndInterestInfrastructure.pdb
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestInfrastructure\obj\Debug\net8.0\ref\DecisionAndInterestInfrastructure.dll
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestInfrastructure\bin\Debug\net8.0\DecisionAndInterestApplication.dll
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestInfrastructure\bin\Debug\net8.0\DecisionAndInterestDomain.dll
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestInfrastructure\bin\Debug\net8.0\DecisionAndInterestApplication.pdb
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestInfrastructure\bin\Debug\net8.0\DecisionAndInterestDomain.pdb
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestInfrastructure\obj\Debug\net8.0\DecisionAndInterestInfrastructure.csproj.AssemblyReference.cache
+C:\Users\artur\source\repos\DecisionAndInterestAPP\DecisionAndInterestInfrastructure\obj\Debug\net8.0\DecisionAndInterestInfrastructure.csproj.CopyComplete
